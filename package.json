@@ -1,0 +1,19 @@
+{
+  "name": "telegram-binance-trading-bot",
+  "version": "1.0.0",
+  "description": "Automated trading bot for Telegram signals on Binance Futures",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "production": "NODE_ENV=production node index.js"
+  },
+  "keywords": ["telegram", "binance", "trading", "bot", "futures"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "binance-api-node": "^0.12.4",
+    "dotenv": "^16.0.3",
+    "winston": "^3.11.0"
+  }
+}
